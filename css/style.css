@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #e60000;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.header .logo {
+  display: inline-block;
+  max-height: 50px;
+}
+
+.header nav {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header nav a {
+  display: inline-block;
+  margin-right: 20px;
+  color: black;
+}
+
+/* .header nav a:last-child{
+    margin-right: 0;
+} */
+
+.header nav a:hover {
+  color: #333;
+}
